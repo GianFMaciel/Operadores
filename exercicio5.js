@@ -1,12 +1,13 @@
-const g = true
-const h = false
-const i = true
 
+const nome = "Davi"
+let idade = 6
+const nascimento = 2018
 
-console.log(g || h, "true") 
+console.log(nome)
 
-console.log(h || i, "true") 
+console.log(idade)
 
-console.log(g || i, "true") 
+console.log(idade >= 18)
 
-console.log(g || h || i, "true")
+console.log(2050 - nascimento)
+
