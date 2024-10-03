@@ -4,9 +4,9 @@ let anos = Number(idadeemanos)
 
 let meses = anos * 12
 
-let dias = meses * 365.25
+let dias = anos * 365.25
 
-let horas = meses * 24
+let horas = dias * 24
 
 console.log(anos)
 console.log(meses)
